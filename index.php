@@ -11,6 +11,6 @@ $headers = array(
 $export->setHeaders($headers);
 $export->addRow(array('Md.Sayed Ahammed', 25));
 $export->addRow(array('Asif', 45));
-//$export->setFileName('example');
+$export->setFileName('example');
 $export->exec();
 
